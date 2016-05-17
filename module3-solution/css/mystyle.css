@@ -1,0 +1,92 @@
+#container {
+	background-color: #80ccff;
+	width: 100%;
+}
+
+#company {
+	text-align: left;
+	color: #000000;
+	padding-left: 0;
+	float: left;
+	font-size: 24px;
+}
+
+#button {
+	margin-top: 10px;
+	border: 1px solid black;
+	background-color: #0052cc;
+	box-shadow: 1px 1px;
+}
+
+.icon-bar {
+	border: 1px solid black;
+}
+
+#dropdown {
+	clear: both;
+	padding: 0;
+	background-color: #ffcccc;
+}
+
+ul {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+#dropdown ul li {
+	list-style: none;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+
+#dropdown ul a {
+	color: #000;
+}
+
+#dropdown ul a:hover {
+	text-decoration: none;
+	color: #ff4d4d;
+}
+
+#content {
+	margin: 0 10px 10px 10px;
+	background-color: #fff;
+	padding: 0;
+}
+
+.dish {
+	font-weight: bold;
+}
+
+.subcontent {
+	padding: 10px;
+	background-color: #bfbfbf;
+	margin-bottom: 20px;
+}
+
+.subcontent p {
+	font-size: 18px;
+}
+
+.subcontent p a {
+	float: right;
+}
+
+/**********Media Query***********/
+@media (min-width: 768px) and (max-width: 1199px){
+	.subcontent p {
+		font-size: 24px;
+	}
+	.container {
+		height: 80px;
+	}
+	#company {
+		margin-top: 15px;
+		font-size: 4vw;
+	}
+	.dish {
+		font-size: 4vw;
+	}
+}
